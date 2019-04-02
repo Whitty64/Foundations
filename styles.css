@@ -1,3 +1,6 @@
+body {
+  font-family: comic sans-serif;
+}
 ul li{
   display: inline;
   list-style: none;
@@ -51,7 +54,7 @@ div.exciting {
   align-content: right;
 }
 h1 {
-  text-align: ;left:
+  text-align: ;left
 }
 h2.shop {
   text-align: center;
@@ -66,4 +69,18 @@ p {
 p.blah {
   border-top-style: none;
   border-bottom-style: none;
+}
+ul.shoes123 {
+  background-image: linear-gradient(to right, #EC4596 , #F44C1A);
+  display:
+}
+img.shoe1 {
+  width: 250px;
+
+}
+img.shoe2 {
+  width: 250px;
+}
+img.shoe3 {
+  width: 250px;
 }
