@@ -1,7 +1,11 @@
 body {
-  font-family: comic sans-serif;
+  font-family:  sans-serif;
+}
+nav {
+  padding-left: 0px;
 }
 ul li{
+  margin-right: 15px;
   display: inline;
   list-style: none;
 }
@@ -13,74 +17,144 @@ a {
 a:link {
   color: orange;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
 }
 a:hover {
-  color: maroon;
+  color: rgb(174, 46, 48);
   text-decoration: underline;
 }
-a.Reviews {
-  color: maroon;
+a.back { /*running into img.converse top margin or padding*/
+  font-size: 12px;
+  color: white;
+  margin left 10px;
 }
-a.buy{ /*not working*/
+a.Reviews {
+  color: rgb(174, 46, 48);
+  text-decoration: underline;
+  margin-left: 60px;
+}
+a.buyit { /*not working*/
   color:green
   background-color: white
-
 }
 img.logo {
   width:50px;
+  margin-right: 5px;
+}
+img.cart {
+  margin-right: 5px;
 }
 img.converse {
   width:550px;
   float:left;
+  margin-left: 100px;
+  padding-top:100px;
+
 }
 div.menu {
-  text-align: right;
+  float: right;
 }
 div.middle {
   background-image: linear-gradient(to right, #EC4596 , #F44C1A);
   color:white;
-  text-align: right;
-  overflow:auto;
+  height: 450px;
+}
+div.maintext {
+  text-align: left;
+  margin-left: 800px;
 }
 div.info {
+  border: .100px;
   border-bottom-style: solid;
   border-color: salmon;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 div.exciting {
   margin-left: 120px;
 }
-.li.rev { /*can't align rev right*/
-  align-content: right;
+li.rev { /*can't align rev right*/
+  margin-left: 800px;
 }
-h1 {
-  text-align: ;left
+.checked {
+  color: salmon;
 }
+h2.topic {
+  margin-bottom: 2px;
+  }
+  h3.topic {
+    margin-bottom: 2px;
+  }
+  /*br.con { trying to add space between content and find shoes
+    padding-bottom: : 150px;
+  }*/
 h2.shop {
   text-align: center;
-  background-color: lightpink;
+  margin-top: 150px;
+  background-color: rgba(250,235,240);
   padding-top: 15px;
   padding-bottom: 15px;
+  border-bottom: none;/*trying to get rid of white space between backgrounds*/
 }
-p {
+h1 {
+  font-size: 40px;
+  margin-block-end: .1em;
+}
+h5 {
+  color:rgba(174, 46, 48, 0.67);
+  margin: 1px;
+}
+p.ipsum {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  border-color: rgba(174, 46, 48, 0.67);
   border-top-style: dashed;
   border-bottom-style: dashed;
+  width: 400px;
+  line-height: 1.8
 }
-p.blah {
+.blah p {
   border-top-style: none;
   border-bottom-style: none;
+  border-color: red;
 }
 ul.shoes123 {
   background-image: linear-gradient(to right, #EC4596 , #F44C1A);
-  display:
+  display:flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 img.shoe1 {
   width: 250px;
-
+  margin-left: 225px;
+}
+h3.funny {
+  margin-left: 225px;
+  color: rgb(174, 46, 48);
+  font-weight: normal;
 }
 img.shoe2 {
   width: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h3.nimble {
+  margin-left: 50px;
+  color: rgb(174, 46, 48);
+  font-weight: normal;
 }
 img.shoe3 {
   width: 250px;
+}
+h3.cute {
+  color:rgb(174, 46, 48);
+  font-weight: normal;
+}
+a.sneak {
+  color:white;
+}
+div.menu2 {
+  float: right;
+  color: grey;
 }
