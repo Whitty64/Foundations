@@ -2,12 +2,12 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Overpriced Sneakers</title>
 </head>
 <body>
   <nav>
-  <ul>
-   <a href=""><img class="logo" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-logo.jpg?raw=true" alt="shoe logo"></a>
+  <ul><a href=""><img class="logo" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-logo.jpg?raw=true" alt="shoe logo"></a>
    <li><a href="">Men</a></li>
    <li><a href="">Women</a></li>
    <li><a href="">Boys</a></li>
@@ -16,56 +16,53 @@
   <div class="menu">
     <li><a href="">Help</a></li>
     <li><a href="">My Account</a></li>
-    <a href=""><img class="cart" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/images/day-1-cart.jpg?raw=true" alt="shoping cart"></a>
+    <a href=""><img class="cart" src="https://raw.githubusercontent.com/ccs-foundations/foundations-front-end-engineering/master/assignments/images/day-1-cart.jpg" alt="shoping cart"></a>
     <li><a href="">Shopping Cart (2)</a></li>
   </ul></div>
   </nav>
-
+<section>
   <div class="middle">
-  <img class="converse" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe1.png?raw=true">
-  <a class="back"> ← BACK TO ALL SHOES</a>
+    <div class="stack"><a class="back"> ← BACK TO ALL SHOES</a>
+    <img class="converse" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe1.png?raw=true">
+  </div>
     <div class="maintext">
       <h1><br>Quick Sneakers</br></h1>
        <h5 class="summer">Summer/Spring 2017</h5>
     <p class="ipsum">Lorem ipsum dolor amet xOXO tbh ennui pour-over heirloom pork belly mlkshk hell of photo booth pickled. Wolf moon cronut banjo deep v fam. Tousled sartorial hoodie poutine fashion axe.
       <a href="" class="Reviews">Read The Reviews</a></p>
-    <h2 class="price">$120.00 <a href="" class="buyit">BUY</a></h2>
+    <h2 class="price">$120.00 <a href="" class="buyit">BUY NOW!</a></h2>
   </div>
-    <!--not able to refrence in css-->
   </div>
+</section>
 
   <div class="info">
     <ul>
       <li><a href="">Product Details</a></li>
       <li><a href="">Size & Fit</a></li>
-      <li class="rev"><a href="">Reviews</a></li>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+      <div class="stars"><li class="rev"><a href="">Reviews</a></li>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></div>
   </div>
 
   <div class="exciting">
-  <p class="blah">
-    <h2 class="topic">Exciting Topic</h2> <br>content here</br>
-    <h3 class="topic"> Exciting Topic</h3> <br class="con">content here</br>
-    <h2 class="topic">Find you Shoe Size and Fit</h2> <br>content here</br>
-      <h2 class="topic">What Our Customers are Saying</h2> <br>Don't take our word for it find out what our Customers have really been saying.</br>
-  </p>
+    <h2 class="topic">Exciting Topic</h2> <p>content here</p>
+    <h3 class="topic"> Exciting Topic</h3> <p>content here</p>
+    <h2 class="topic">Find you Shoe Size and Fit</h2> <p class="con">content here</p>
+      <h2 class="topic">What Our Customers are Saying</h2> <p>Don't take our word for it find out what our Customers have really been saying.</p>
   </div>
 
 <h2 class="shop">Shop our Recomended Shoes</h2>
   <div class="threeshoes">
     <ul class="shoes123">
   <li><img class="shoe1" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe2.png?raw=true">
-    <h3 class="funny"><a class="sneak">Funny Sneakers $120.00</a><br>Spring/Summer 2017</br></h3>
+    <h3 class="funny"><a class="sneak">Funny Sneakers $120.00</a><p>Spring/Summer 2017</p></h3>
   <li><img class="shoe2" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe3.png?raw=true">
-    <h3 class="nimble"><a class="sneak">Nimble Sneakers $120.00</a><br>Spring/Summer 2017</br></h3>
+    <h3 class="nimble"><a class="sneak">Nimble Sneakers $120.00</a><p>Spring/Summer 2017</p></h3>
   <li><img class="shoe3" src="https://github.com/ccs-foundations/foundations-front-end-engineering/blob/master/assignments/images/day-1-shoe4.png?raw=true">
-    <h3 class="cute"><a class="sneak">Cute Sneakers $120.00</a><br>Spring/Summer 2017</br></h3>
+    <h3 class="cute"><a class="sneak">Cute Sneakers $120.00</a><p>Spring/Summer 2017</p></h3>
     </ul></div>
 
 <footer>
@@ -81,8 +78,8 @@
     <li><a href="">Terms & Conditions |</a></li>
     <li><a href="">C Copyright 2017.Sneaker Shop, LLC</a></li>
   </ul></div>
-  </nav>
 </footer>
+<script src="main.js"> </script>
 </body>
 <!--Need clean up and delete stuff that no longer is needed, move back link to right, need to create buy button, can't figure out how to get rid of white space,change footer text on right to grey.-->
 </html>
