@@ -4,9 +4,16 @@ body {
 nav {
   padding-left: 0px;
 }
+.menu {
+  float: left;
+}
+.menu2 {
+  float: right;
+}
+
 ul li{
   margin-right: 15px;
-  display: inline-block;
+  display: inline;
   list-style: none;
 }
 a {
@@ -52,15 +59,17 @@ img.cart {
 img.converse {
   width:550px;
 }
-div.menu {
-  float: right;
-}
+
 div.stars {
   float:right;
+}
+span {
+  color: lightgrey ;
 }
 section {
   background-image: linear-gradient(to right, #de2074 , #F44C1A);
   height: 450px;
+  clear: both;
 }
 div.stack {
   display: flex;
@@ -97,9 +106,7 @@ h2.topic {
   h3.topic {
     margin-bottom: 2px;
   }
-  /*br.con { trying to add space between content and find shoes
-    padding-bottom: : 150px;
-  }*/
+
 h2.shop {
   text-align: center;
   margin-top: 150px;
